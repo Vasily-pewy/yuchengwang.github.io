@@ -1,3 +1,7 @@
-# Note 1
+---
+title: "Note item number 1"
+excerpt: "Short description of note"
+collection: note
+---
 
-This is the first note.
+note note note
