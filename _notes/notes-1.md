@@ -1,10 +1,10 @@
-Here I plan to upload my notes on math and economics.
-
 ---
 title: "Math Notes"
 excerpt: "Short description of note"
 collection: note
 ---
+Here I plan to upload my notes on math and economics.
+
 
 ---
 title: "Economics Notes"
