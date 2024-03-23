@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yucheng Wang"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Yucheng Wang"
+name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,20 +22,20 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yucheng Wang"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "State College"
-  employer         : "Pennsylvania State University"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "yfw5467@psu.edu" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : # URL
-  pubmed           : # URL
+  orcid            : "http://orcid.org/yourorcidurl"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
@@ -199,16 +199,16 @@ kramdown:
 
 # Collections
 collections:
-  Teaching:
+  teaching:
     output: true
     permalink: /:collection/:path/
-  Publications:
+  publications:
     output: true
     permalink: /:collection/:path/
-  Notes:
+  portfolio:
     output: true
     permalink: /:collection/:path/
-  Personal Life:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -251,24 +251,24 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _Notes
+  # _portfolio
   - scope:
       path: ""
-      type: notes
+      type: portfolio
     values:
       layout: single
       author_profile: true
       share: true
-      comments: true
-  # _Personal Life
+      comment: true
+  # _talks
   - scope:
       path: ""
-      type: personal life
+      type: talks
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
-      comments: true
+
 
 # Sass/SCSS
 sass:
