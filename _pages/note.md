@@ -8,8 +8,6 @@ sidebar:
   nav: "main"
 ---
 
-# Notes
-
 I plan to upload my notes on basic math courses and some novel topics about microeconomics. I list some topics that may take years to update.
 
 ## Math Notes
