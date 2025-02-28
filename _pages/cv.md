@@ -15,26 +15,13 @@ Education
 * M.A. in Economics, Duke University, 2023
 * B.A. in Political Science, Peking University, 2021
 
-Work experience
-======
-* Spring 2024: Default
-  * Default
-  * Default
-  * Supervisor: Default
-  
-Skills
-======
-* R
-* Matlab
-* LaTeX
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Working Papers
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -46,6 +33,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Skills
 ======
-* Default
+* R
+* Matlab
+* LaTeX
+
